@@ -9,5 +9,5 @@
 |--------------------|---------------------------------------------------|---------------|-----------|
 | SENTRY_HOST        | Sentry address to which requests can be forwarded | _(allow all)_ | sentry.io |
 | SENTRY_PROJECT_IDS | IDs of allowed projects separated by commas       | _(allow all)_ | 3,5,15    |
-| TUNNEL_PATH        |                                                   | /tunnel       |           |
-| PORT               |                                                   | 8090          |           |
+| TUNNEL_PATH        | The path where requests come in                   | /tunnel       |           |
+| PORT               | The port the application listens on               | 8090          |           |
