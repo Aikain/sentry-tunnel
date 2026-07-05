@@ -33,7 +33,7 @@ jobs:
         uses: ctrf-io/github-test-reporter@v1
         with:
           report-path: ctrf-report.json
-          puul-request-report: true
+          pull-request-report: true
           pull-request: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
