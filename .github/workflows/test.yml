@@ -17,7 +17,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5.5.0
         with:
-          go-version: 1.25
+          go-version: 1.26
           # We don't need cache when there are no dependencies
           cache: false
 
