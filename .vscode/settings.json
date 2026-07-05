@@ -1,0 +1,14 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "always",
+    },
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+}
